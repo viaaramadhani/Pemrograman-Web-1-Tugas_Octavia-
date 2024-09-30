@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes</title>
+</head>
+<body>
+    <p>Membuat list
+        <ol type="I">
+            <li>Ini pilihan 1</li>
+            <li>Ini pilihan 2</li>
+        </ol>
+
+        <ul type="square">
+            <li>Pilih SC</li>
+            <li>Pilih RPL</li>
+        </ul>
+
+        <dl>
+            <dt>FT</dt>
+                <dd>Teknik Informatika</dd>
+                <dd>Teknik Industri</dd>
+                <dd>Teknik Mesin</dd>
+                <dd>Teknik Pangan</dd>
+                <dd>Teknik Planologi</dd>
+                <dd>Teknik Lingkungan</dd>
+        </dl>
+    </p>
+
+    <table border="1" cellspacing="0" cellpadding="0">
+        <tr>
+            <th>No.</th>
+            <th>Nama</th>
+            <th>Nim</th>
+            <th>Prodi</th>
+        </tr>
+        <tr>
+            <th>1.</th>
+            <th>Octavia Ramadhani</th>
+            <th>F55123015</th>
+            <th>Teknik Informatika</th>
+        </tr>
+    </table>
+    <br>
+    <table border="1" cellspacing-="0" cellpadding="0">
+        <tr>
+            <th rowspan="3">No.</th>
+            <th colspan="2">Nama</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Octavia</td>
+        </tr>
+    </table>
+    <br>
+    <div style="color: rgb(215, 36, 129);">
+        <h3>Pemrograman Web</h3>
+        <p>Ini adalah kuliah Pemrograman web</p>
+    </div>
+    <br>
+    <h2>Membuat form</h2>
+    <br>
+    <form style="background-color: rgb(235, 166, 220);">
+        <!--input email-->
+        <label for="name : ">Nama</label>
+            <input type="text" id="name">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <br>
+        <label for="password">Masukan Password</label>
+        <input type="password" id="pass">
+        <br>
+        <label for="">Jenis Kelamin</label></label>
+        <br>
+        <!--input radio-->
+        <input type="radio" name="JK" id="Laki-Laki">
+        <label for="Laki=Laki">Laki-Laki</label>
+        <br>
+        <input type="radio" name="Jk" id="Perempuan">
+        <label for="Perempuan">Perempuan</label>
+        <br>
+
+        <!--input checkbox-->
+        <label for="">Hobi</label>
+        <br>
+        <input type="checkbox" name="hobi" id="ngoding">
+        <label for="ngoding">Ngoding</label>
+        <input type="checkbox" name="hobi" id="game">
+        <label for="game">Main Game</label>
+        <input type="checkbox" name="hobi" id="menyanyi">
+        <label for="menyanyi">Menyanyi</label>
+        <input type="checkbox" name="hobi" id="rebahan">
+        <label for="rebahan">Rebahan</label>
+        <br>
+         <!--Input Select-->
+         <br>
+         <label for="Kd">Kendaraan</label>
+         <select name="" id="jk">
+             <option value="" disabled selected hidden>pilih jenis kendaraan</option>
+             <option value="Mobil">Mobil</option>
+             <option value="Motor">Motor</option>
+             <option value="Bus">Bus</option>
+             <option value="Pesawat">Pesawat</option>
+             <option value="Kereta">Kereta</option>
+         </select>
+         <br/>
+         <br>
+         <!--Input File-->
+        <input type="file" name="gambar" value="isi apa sto">
+        <!--Input Date-->
+        <br>
+        <label for="tgl-lahir">Tanggal Lahir:</label>
+        <input type="date" name="" id="tgl-lahir">
+        <input type="week" name="" id="minggu">
+        
+        <br>
+        <!--Text Area-->
+        <label for="komentar">Komentar: </label>
+        <textarea name="" id="komentar" cols="70px" rows="10px"></textarea>
+         <br>
+
+        <!--Input Submit-->
+        <input type="submit" name="submit" id="" value="submit"/>
+        <!--<button type="submit">save</button>-->
+        <br>
+        
+    </form>
+</body>
+</html>
